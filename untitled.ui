@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>556</width>
+    <height>306</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>556</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuInstroduction">
+    <property name="title">
+     <string>Instroduction</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuUser_Register">
+    <property name="title">
+     <string>User Register</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuTasks">
+    <property name="title">
+     <string>Tasks</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuStart_Process">
+    <property name="title">
+     <string>Start Process</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuGmail">
+    <property name="title">
+     <string>Gmail</string>
+    </property>
+    <addaction name="actionSend_Mail"/>
+    <addaction name="actionRead_Mail"/>
+   </widget>
+   <addaction name="menuInstroduction"/>
+   <addaction name="menuUser_Register"/>
+   <addaction name="menuTasks"/>
+   <addaction name="menuStart_Process"/>
+   <addaction name="menuGmail"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSend_Mail">
+   <property name="text">
+    <string>Send Mail</string>
+   </property>
+  </action>
+  <action name="actionRead_Mail">
+   <property name="text">
+    <string>Read Mail</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
